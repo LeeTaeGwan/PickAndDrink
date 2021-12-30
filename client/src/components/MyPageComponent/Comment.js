@@ -17,11 +17,12 @@ function Comment({accessToken, comments, userinfo}) {
           </article>
           <div id='commentContainer'>
           {
-            comments.map((comment) => {
-              return(
-                <div>{comment.comment}</div>
-              )
-            })
+            // comments.map((comment) => {
+            //   return(
+            //     <div>{comment.comment}</div>
+            //   )
+            // })
+            '시간부족으로 구현을 하지 못했어요 😭💦'
           }
           </div>
         </section>

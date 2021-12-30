@@ -63,12 +63,12 @@ function ItemMain({setToken}) {
       : ''
       }
       <div id="rankContainer">
-       <div className="pick">
+      <div className="pick">
         <div className="pick-img">
           <img src="/images/cat.png" alt=""/>
         </div>  
           <h1 className='mainH'>픽냥이's 랭킹 Pick❗</h1>
-       </div>  
+      </div>  
         <section id="rankList">
           {firstItem.map((item) => <Item key={item.id} item={item} setToken={setToken}  openModalHandler={openModalHandler} isOpen={isOpen} curItemId={curItemId} modalItem={modalItem} />)}
         </section>

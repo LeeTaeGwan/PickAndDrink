@@ -2,11 +2,12 @@ import React, {useEffect, useState} from 'react';
 import axios from 'axios';
 import ItemMypage from '../components/MyPageComponent/ItemMypage'
 import Header from '../components/Header'
-import Sidebar from '../components/RankingPageComponent/Sidebar'
+import Sidebar from '../components/MyPageComponent/Sidebar'
 import './Mypage.css' 
 import ItemPageBottom from '../components/MyPageComponent/ItemMypageBottom'
 import Comment from '../components/MyPageComponent/Comment'
 import Delete from  '../components/MyPageComponent/Delete'
+import Footer from '../components/Footer'
 
 axios.defaults.withCredentials = true;
 
@@ -37,6 +38,7 @@ function Mypage ({isLogin, userinfo, accessToken, setIsLogin}) {
         pageRender(curPage)
       }
       </div>
+      <Footer />
     </div>
   );
 }

@@ -21,8 +21,8 @@ function Sidebar ({accessToken, setComments, setCurPage}) {
   return (
     <div id='mypage-sidebar-body'>
       <section id="sidebar-container">
-        <div className='sidebar-category' onClick={(e) => getComment(e)}>comment</div>
         <div className='sidebar-category' onClick={(e) => getComment(e)}>즐겨찾기</div>
+        <div className='sidebar-category' onClick={(e) => getComment(e)}>comment</div>
         <div className='sidebar-category' onClick={(e) => getComment(e)}>회원탈퇴</div>
       </section>
   </div>

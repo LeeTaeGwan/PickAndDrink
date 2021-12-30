@@ -32,6 +32,7 @@ export default function RankItem({isLogin, setToken, item, curCategory}) {
       alert('에러가 발생했습니다. 잠시 후 다시 시도해 주세요.')
     }) 
   }
+
   return (
     <div>
       {

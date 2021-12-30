@@ -35,7 +35,7 @@ function Delete({accessToken, comments, userinfo, setIsLogin}) {
         <div>
 
         <div id='deleteContainer'>
-            <h2>탈퇴하실껀가요? ㅠㅠ</h2>
+            <h2>탈퇴하실껀가요? 😭</h2>
             <div id='deleteButton' onClick={signOut}>탈퇴하기</div>
         </div>
       </div>
